@@ -1,0 +1,6 @@
+D:\Documentos\Visual Studio 2017\Projects\POO_Lab04_Consola_Lipa\POO_Lab04_Consola_Lipa\obj\Debug\POO_Lab04_Consola_Lipa.csprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio 2017\Projects\POO_Lab04_Consola_Lipa\POO_Lab04_Consola_Lipa\bin\Debug\POO_Lab04_Consola_Lipa.exe.config
+D:\Documentos\Visual Studio 2017\Projects\POO_Lab04_Consola_Lipa\POO_Lab04_Consola_Lipa\bin\Debug\POO_Lab04_Consola_Lipa.exe
+D:\Documentos\Visual Studio 2017\Projects\POO_Lab04_Consola_Lipa\POO_Lab04_Consola_Lipa\bin\Debug\POO_Lab04_Consola_Lipa.pdb
+D:\Documentos\Visual Studio 2017\Projects\POO_Lab04_Consola_Lipa\POO_Lab04_Consola_Lipa\obj\Debug\POO_Lab04_Consola_Lipa.exe
+D:\Documentos\Visual Studio 2017\Projects\POO_Lab04_Consola_Lipa\POO_Lab04_Consola_Lipa\obj\Debug\POO_Lab04_Consola_Lipa.pdb
