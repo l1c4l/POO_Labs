@@ -1,0 +1,18 @@
+c:\users\windows -10\Documents\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.csprojResolveAssemblyReference.cache
+c:\users\windows -10\Documents\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.exe.config
+c:\users\windows -10\Documents\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.exe
+c:\users\windows -10\Documents\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.pdb
+c:\users\windows -10\Documents\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.exe
+c:\users\windows -10\Documents\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.pdb
+D:\Documentos\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.exe.config
+D:\Documentos\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.exe
+D:\Documentos\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.pdb
+D:\Documentos\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.csprojResolveAssemblyReference.cache
+D:\Documentos\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.exe
+D:\Documentos\Visual Studio 2017\Projects\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.pdb
+F:\data\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.exe.config
+F:\data\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.exe
+F:\data\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\bin\Debug\POO_U1_TrabajoFinal.pdb
+F:\data\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.csprojAssemblyReference.cache
+F:\data\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.exe
+F:\data\POO_U1_TrabajoFinal\POO_U1_TrabajoFinal\obj\Debug\POO_U1_TrabajoFinal.pdb
