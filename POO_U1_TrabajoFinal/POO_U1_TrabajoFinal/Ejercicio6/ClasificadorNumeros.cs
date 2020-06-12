@@ -44,9 +44,9 @@ namespace POO_U1_TrabajoFinal.Ejercicio6
                 numero.valorCubo = Convert.ToInt32(Math.Pow(numero.valor, 3));
             }
         }
-        public void IngresarDatos()
+        public void IngresarDato()
         {
-            Console.Write("## Ingrese un número: ");
+            Console.Write("\n## Ingrese un número: ");
             numeroLimite = int.Parse(Console.ReadLine());
         }
         public void VisualizarTabla()

@@ -14,9 +14,5 @@ namespace POO_U1_TrabajoFinal.Ejercicio6
         public int valorCubo;
 
         public Numero(int valor) { this.valor = valor; }
-        public Numero(int valor, bool esPar, int valorCuadrado, double valorCubo)
-        {
-
-        }
     }
 }

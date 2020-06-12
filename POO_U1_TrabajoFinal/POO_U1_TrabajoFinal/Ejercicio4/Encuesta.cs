@@ -4,13 +4,9 @@ namespace POO_U1_TrabajoFinal.Ejercicio4
 {
     class Encuesta
     {
-        public string[] opciones;
-        public string[] preguntas;
-        public string[] titulos;
-
-        public int[,] resultados;
-
-        public int cantidadEncuestados;
+        string[] opciones, preguntas, titulos;
+        int[,] resultados;
+        int cantidadEncuestados;
         public Encuesta()
         {
             opciones = new string[6] { "C#", "Java", "Python", "Javascript", "Rust", "Kotlin" };
@@ -21,19 +17,19 @@ namespace POO_U1_TrabajoFinal.Ejercicio4
         }
         public void Votar()
         {
-            Console.WriteLine("\n## Complete la encuesta ##");
+            Console.WriteLine("\n## Lenguajes de programación ##");
             Console.WriteLine("La encuesta consiste en 3 preguntas con 6 alternativas cada una");
             foreach (string pregunta in preguntas)
             {
-                int opcionSeleccionada;
-                int indicePregunta = Array.IndexOf(preguntas, pregunta);
+                int opcionSeleccionada,
+                    indicePregunta = Array.IndexOf(preguntas, pregunta);
 
                 Console.WriteLine("\n{0}. {1}\n", indicePregunta + 1, pregunta);
                 Console.WriteLine("Opciones:");
+
                 foreach (string opcion in opciones)
-                {
                     Console.WriteLine("[{0}] {1}", Array.IndexOf(opciones, opcion) + 1, opcion);
-                }
+
                 Console.Write("\nIngrese una opción: ");
 
                 opcionSeleccionada = int.Parse(Console.ReadLine());
@@ -43,24 +39,33 @@ namespace POO_U1_TrabajoFinal.Ejercicio4
         }
         public void VerResultados()
         {
-            Console.WriteLine("## Lenguajes de programación ##");
-            foreach (string titulo in titulos)
+            if (cantidadEncuestados > 0)
             {
-                Console.WriteLine("\n{0}:\n", titulo);
-                Console.WriteLine("╔════════╦════════════╦════════════════════════╦════════════╗");
-                Console.WriteLine("║ Número ║   Opción   ║          Barra         ║ Porcentaje ║");
-                Console.WriteLine("╠════════╬════════════╬════════════════════════╬════════════╣");
-                foreach (string opcion in opciones)
-                {
-                    int indicePregunta = Array.IndexOf(titulos, titulo);
-                    int indiceOpcion = Array.IndexOf(opciones, opcion);
-                    int resultado = resultados[indicePregunta, indiceOpcion];
 
-                    double porcentaje = (double)(resultado) / cantidadEncuestados * 100.0;
-                    int cantidadBloques = (int)(porcentaje / 5.0);
-                    Console.WriteLine("║ {0,6} ║ {1,10} ║ [{2,20}] ║ {3,9:N}% ║", indiceOpcion + 1, opcion, new String('=', cantidadBloques).PadRight(20), porcentaje);
+                Console.WriteLine("\n## Lenguajes de programación ##");
+                foreach (string titulo in titulos)
+                {
+                    Console.WriteLine("\n{0}:\n", titulo);
+                    Console.WriteLine("╔════════╦════════════╦════════════════════════╦════════════╗");
+                    Console.WriteLine("║ Número ║   Opción   ║          Barra         ║ Porcentaje ║");
+                    Console.WriteLine("╠════════╬════════════╬════════════════════════╬════════════╣");
+                    foreach (string opcion in opciones)
+                    {
+                        int indicePregunta = Array.IndexOf(titulos, titulo),
+                            indiceOpcion = Array.IndexOf(opciones, opcion),
+                            resultado = resultados[indicePregunta, indiceOpcion];
+                        double porcentaje = (double)(resultado) / cantidadEncuestados * 100.0;
+                        int cantidadBloques = (int)(porcentaje / 5.0);
+
+                        string barra = new String('█', cantidadBloques).PadRight(20);
+                        Console.WriteLine("║ {0,6} ║ {1,10} ║ [{2,20}] ║ {3,9}% ║", indiceOpcion + 1, opcion, barra, porcentaje.ToString("##0.#"));
+                    }
+                    Console.WriteLine("╚════════╩════════════╩════════════════════════╩════════════╝");
                 }
-                Console.WriteLine("╚════════╩════════════╩════════════════════════╩════════════╝");
+            }
+            else
+            {
+                Console.WriteLine("\nNo hay datos que mostrar");
             }
         }
     }

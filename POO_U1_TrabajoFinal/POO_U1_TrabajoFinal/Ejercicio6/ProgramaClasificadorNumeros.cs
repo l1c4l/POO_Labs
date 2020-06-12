@@ -8,16 +8,19 @@ namespace POO_U1_TrabajoFinal.Ejercicio6
         {
             char opcion;
 
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.Gray;
             do
             {
                 ClasificadorNumeros clasificadorNumeros = new ClasificadorNumeros();
 
                 Console.Clear();
+                
                 Console.WriteLine("=======================");
                 Console.WriteLine("     Ejercicio 6");
                 Console.WriteLine("=======================\n");
 
-                clasificadorNumeros.IngresarDatos();
+                clasificadorNumeros.IngresarDato();
                 clasificadorNumeros.GenerarNumeros();
                 clasificadorNumeros.DeterminarParImpar();
                 clasificadorNumeros.CalcularCuadradosCubos();

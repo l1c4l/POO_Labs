@@ -6,7 +6,7 @@ namespace POO_U1_TrabajoFinal.Ejercicio5
 {
     class Operador
     {
-        public List<Operacion> operaciones;
+        List<Operacion> operaciones;
         public Operador()
         {
             operaciones = new List<Operacion>();
@@ -40,12 +40,26 @@ namespace POO_U1_TrabajoFinal.Ejercicio5
         }
         public void Buscar()
         {
-            Console.Write("Ingrese el tipo de operación a filtrar: ");
+            Operador operacionesFiltradas = new Operador();
+
+            Console.WriteLine("\n## Buscar por tipo de operación");
+            Console.Write("* Ingrese el tipo de operación a filtrar: ");
             string tipoOperacion = Console.ReadLine();
 
-            Operador operacionesFiltradas = new Operador();
+            switch (tipoOperacion)
+            {
+                case "+": tipoOperacion = "suma"; break;
+                case "-": tipoOperacion = "resta"; break;
+                case "*": tipoOperacion = "multiplicación"; break;
+                case "/": tipoOperacion = "división"; break;
+            }
+
             operacionesFiltradas.operaciones = operaciones.Where(operacion => operacion.tipo == tipoOperacion).ToList();
-            operacionesFiltradas.Listar();
+
+            if (operaciones.Count != 0)
+                operacionesFiltradas.Listar();
+            else
+                Console.WriteLine("No se encontrarón operaciones de {0}\n", tipoOperacion);
         }
     }
 }

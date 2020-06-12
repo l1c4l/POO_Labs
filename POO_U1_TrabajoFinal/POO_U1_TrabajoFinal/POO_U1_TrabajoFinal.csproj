@@ -45,9 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejercicio2\Cajero.cs" />
-    <Compile Include="Ejercicio3\Figura.cs" />
-    <Compile Include="Ejercicio3\ProgramaFigura.cs" />
+    <Compile Include="Ejercicio1\Determinador.cs" />
+    <Compile Include="Ejercicio1\ProgramaDeterminador.cs" />
+    <Compile Include="Ejercicio2\Cuenta.cs" />
+    <Compile Include="Ejercicio2\ProgramaCuenta.cs" />
+    <Compile Include="Ejercicio3\ProgramaTriangulo.cs" />
+    <Compile Include="Ejercicio3\Triangulo.cs" />
     <Compile Include="Ejercicio4\Encuesta.cs" />
     <Compile Include="Ejercicio4\ProgramaEncuesta.cs" />
     <Compile Include="Ejercicio5\Operacion.cs" />
@@ -62,8 +65,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ejercicio1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
